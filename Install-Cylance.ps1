@@ -12,4 +12,4 @@ New-Item -Path $dest -ItemType directory
 Invoke-WebRequest $source -OutFile "$dest\$fileToInstall"
 
 <# Install Cylance using script for msi install #>
-Start-Process msiexec.exe -Wait -ArgumentList '/i C:\WindowsAzure\CylanceProtect_x64.msi /qn PIDKEY=NqmzcgoemZ0Whl7JMzDWzA3oE'
+Start-Process msiexec.exe -Wait -ArgumentList '/i C:\WindowsAzure\CylanceProtect_x64.msi /qn PIDKEY=XXXXXXXXXXXXXXXXXXXXXXXX'
