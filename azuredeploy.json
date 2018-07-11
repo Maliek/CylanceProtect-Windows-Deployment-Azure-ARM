@@ -49,7 +49,8 @@
     "scriptFolder": ".",
     "scriptFileName": "Install-Cylance.ps1",
     "fileToBeInstalled": "CylanceProtect_x64.msi",
-    "scriptParameters": "[concat('-artifactsLocation ', parameters('_artifactsLocation'), ' -artifactsLocationSasToken \"', parameters('_artifactsLocationSasToken'), '\" -folderName ', variables('scriptFolder'), ' -fileToInstall ', variables('fileToBeInstalled'))]"
+    "fileToBeInstalledTwo": "CylanceOPTICSSetup.exe",
+    "scriptParameters": "[concat('-artifactsLocation ', parameters('_artifactsLocation'), ' -artifactsLocationSasToken \"', parameters('_artifactsLocationSasToken'), '\" -folderName ', variables('scriptFolder'), ' -fileToInstall ', variables('fileToBeInstalled'), ' -fileToInstallTwo ', variables('fileToBeInstalledTwo'))]"
   },
   "resources": [
     {
