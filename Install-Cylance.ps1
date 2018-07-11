@@ -17,6 +17,6 @@ Invoke-WebRequest $sourceTwo -OutFile "$dest\$fileToInstallTwo"
 
 
 <# Install Cylance using script for msi install #>
-Start-Process msiexec.exe -Wait -ArgumentList '/i C:\WindowsAzure\CylanceProtect_x64.msi /qn PIDKEY=XXXXXXXXXXXXXXXXXXXXXXXX LAUNCHAPP=1'
+Start-Process msiexec.exe -Wait -ArgumentList '/i C:\WindowsAzure\CylanceProtect_x64.msi /qn PIDKEY=0pjyYLH4L9n3qaXOIQ1XoLvjE LAUNCHAPP=1'
 
 Start-Process -FilePath "C:\WindowsAzure\CylanceOPTICSSetup.exe" -ArgumentList -q -Wait
